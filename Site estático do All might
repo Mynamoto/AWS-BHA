@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Might - O Símbolo da Paz</title>
+    <!-- Tailwind CSS para estilização rápida e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts para uma fonte com tema de herói -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilo para aplicar a fonte Bangers nos cabeçalhos e adicionar uma sombra ao texto para melhor legibilidade */
+        .font-bangers {
+            font-family: 'Bangers', cursive;
+        }
+        h1, h2 {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            /* Imagem de fundo de My Hero Academia */
+            background-image: url('https://images.alphacoders.com/853/853846.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Container Principal -->
+    <div class="container mx-auto p-4 md:p-8 min-h-screen flex items-center justify-center">
+        
+        <!-- Cartão de Conteúdo -->
+        <div class="bg-black bg-opacity-70 rounded-2xl shadow-2xl p-6 md:p-10 max-w-4xl w-full backdrop-blur-sm border border-yellow-400/30">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                
+                <!-- Coluna da Imagem -->
+                <div class="flex justify-center">
+                    <img src="https://i.pinimg.com/originals/e3/3c/6a/e33c6a23479257d76711c164287d3f45.png" 
+                         alt="Imagem do All Might sorrindo com o punho erguido" 
+                         class="rounded-xl shadow-lg max-h-96 object-contain transition-transform duration-300 hover:scale-105">
+                </div>
+
+                <!-- Coluna de Texto -->
+                <div class="text-center md:text-left">
+                    <!-- Título Principal -->
+                    <h1 class="text-5xl md:text-7xl font-bangers text-yellow-400 tracking-wider">
+                        ALL MIGHT
+                    </h1>
+                    <p class="text-yellow-200 text-lg -mt-2 mb-6">O Símbolo da Paz</p>
+
+                    <!-- Seção "Quem é?" -->
+                    <div class="mb-6">
+                        <h2 class="text-3xl font-bangers text-blue-400 mb-2 tracking-wide">Quem é All Might?</h2>
+                        <p class="text-gray-200 leading-relaxed">
+                            Toshinori Yagi, mais conhecido como All Might, é o antigo Herói Profissional N° 1 e o oitavo portador da individualidade "One For All". Com seu sorriso contagiante e força esmagadora, ele se tornou a inspiração para uma geração de heróis e um pilar de esperança para a sociedade, sendo aclamado como o "Símbolo da Paz".
+                        </p>
+                    </div>
+
+                    <!-- Seção "Poderes" -->
+                    <div>
+                        <h2 class="text-3xl font-bangers text-red-500 mb-2 tracking-wide">Poderes e Habilidades</h2>
+                        <ul class="list-disc list-inside text-gray-200 space-y-1 text-left">
+                            <li><span class="font-bold">One For All:</span> Uma individualidade que acumula poder e pode ser passada para outras pessoas.</li>
+                            <li><span class="font-bold">Força Sobre-Humana:</span> Capaz de destruir quarteirões com um único soco.</li>
+                            <li><span class="font-bold">Velocidade e Reflexos:</span> Movimenta-se mais rápido do que o olho pode ver.</li>
+                            <li><span class="font-bold">Durabilidade Extrema:</span> Suporta ataques que seriam fatais para outros heróis.</li>
+                            <li><span class="font-bold">Ataques Especiais:</span> Conhecido por seus golpes com nomes de estados americanos, como o "Texas Smash" e o "Detroit Smash".</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
